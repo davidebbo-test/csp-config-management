@@ -5,9 +5,7 @@ metadata:
 spec:
   privileged: false
   seLinux:
-    ru
-    '
-    'sdfgkjle: RunAsAny
+    rule: RunAsAny
   supplementalGroups:
     rule: RunAsAny
   runAsUser:
